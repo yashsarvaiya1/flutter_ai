@@ -2,6 +2,7 @@ import 'package:api_demo/core/app.dart';
 import 'package:api_demo/modules/image_describer/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:icons_plus/icons_plus.dart';
 
 class ImageAiPage extends StatelessWidget {
   ImageAiPage({super.key});
@@ -156,7 +157,7 @@ class ImageAiPage extends StatelessWidget {
                           ),
                           child: IconButton(
                             onPressed: () => Get.offAllNamed(AppRoutes.home),
-                            icon: Icon(Icons.home_outlined, size: 30),
+                            icon: Icon(Clarity.home_solid),
                           ),
                         ),
                       ),
