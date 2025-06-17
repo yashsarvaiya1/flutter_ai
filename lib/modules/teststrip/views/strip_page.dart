@@ -126,7 +126,7 @@ class StripPage extends StatelessWidget {
                                                           .spaceBetween,
                                                   children: [
                                                     Text(
-                                                      "Total hardness (ppm)",
+                                                      eachitem.name,
                                                       style: TextStyle(
                                                         fontSize: 20,
                                                       ),
